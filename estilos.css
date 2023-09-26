@@ -1,0 +1,53 @@
+body {
+    background-color: #C8EEFF;
+    color: red;
+    font-family: 'Berlin Sans FB';
+}
+h1 {
+    text-align: center;
+    
+    font-family: Berlin Sans F;
+    letter-spacing: 4px;
+}
+nav {
+    color: red;
+    font-style: oblique;
+    font-family: 'Berlin Sans FB';
+}
+
+p {
+    color: #FA9694;
+    margin: 30px;
+    font-family: 'Berlin Sans FB';
+    font-size: 25px;
+}
+
+/* clase para título*/
+.titulo {
+    background-color: #C8EEFF;
+    font-family: 'Berlin Sans FB';
+    font-size: 50px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-weight: 600;
+    color: #FF95D2;
+}
+.navegacion {
+    font-family: 'Berlin Sans FB';
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    /*width: auto;*/
+    margin: 0px auto; /*distancia entre la barra de navegación y titulo*/
+    background-color: #B9D5EE;
+    padding: 8px;
+    text-decoration: none;
+    /*distribuye la barra de menú*/
+    display: flex;
+    justify-content: space-around;
+}
+/*clase para distribuir los parrafos*/
+.principal {
+    background-color: #C8EEFF;
+    color: snow;
+}
